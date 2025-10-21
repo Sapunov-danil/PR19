@@ -24,12 +24,6 @@ namespace Kino_Sapunov.Classes
             return command.ExecuteReader();
         }
 
-        public static int ExecuteNonQuery(string sql, MySqlConnection connection)
-        {
-            MySqlCommand command = new MySqlCommand(sql, connection);
-            return command.ExecuteNonQuery();
-        }
-
         public static void CloseConnection(MySqlConnection connection)
         {
             if (connection != null)
