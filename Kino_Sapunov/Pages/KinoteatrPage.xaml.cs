@@ -83,5 +83,6 @@ namespace Kino_Sapunov.Pages
                 LoadData();
             }
         }
+
     }
 }
