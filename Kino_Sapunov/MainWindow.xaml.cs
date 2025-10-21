@@ -44,5 +44,13 @@ namespace Kino_Sapunov
                     break;
             }
         }
+        private void Kinoteatr_Click(object sender, RoutedEventArgs e)
+        {
+            OpenPages(Pages.kinoteatr);
+        }
+        private void Afisha_Click(object sender, RoutedEventArgs e)
+        {
+            OpenPages(Pages.afisha);
+        }
     }
 }
